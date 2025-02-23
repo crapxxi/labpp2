@@ -25,7 +25,6 @@ res = text.split('_')
 camel = res[0] + ''.join(word.capitalize() for word in res[1:])
 # print(camel)
 str8_match = re.findall(r'[A-Z][^A-Z]*',t)
-str8_match = ' '.join(str8_match)
 # print(str8_match)
 r = "OmaeWaMouSindeyo"
 res1 = ' '.join(re.findall(r'[A-Z][^A-Z]*',r))
